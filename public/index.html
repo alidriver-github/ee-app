@@ -24,7 +24,43 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam" />
+    <title>Smart App</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        margin-bottom:8px;
+        max-width: initial !important; /* hack in as it's weird that max-width is set on block level elements within */
+      }
+      p {
+        margin: 0;
+        margin-bottom:8px;
+        max-width: initial !important; /* hack in as it's weird that max-width is set on block level elements within */
+      }
+      .card .lastChild{
+        margin-bottom:0;
+      }
+
+      div[dir="rtl"] { 
+        font-family: "Cairo";
+      }
+      </style>
+      <style type="text/css">
+      @font-face {
+      font-family: "Redacted Script";
+      src: url("redacted-font/fonts/web/redacted-script-regular.eot");
+      src: url("redacted-font/fonts/web/redacted-script-regular.woff2") format("woff2"),
+         url("redacted-font/fonts/web/redacted-script-regular.woff") format("woff"),
+         url("redacted-font/fonts/web/redacted-script-regular.otf") format("opentype"),
+         url("redacted-font/fonts/web/redacted-script-regular.svg#filename") format("svg");
+      }
+      </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
